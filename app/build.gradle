@@ -4,7 +4,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
     defaultConfig {
-        applicationId "basecode.com.basecode"
+        applicationId "com.basecode"
         minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
@@ -25,6 +25,12 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'org.apache.httpcomponents:httpclient:4.5'
     compile 'com.android.support:design:24.2.1'
     testCompile 'junit:junit:4.12'
+    //A memory leak detection library for Android and Java.  https://github.com/square/leakcanary
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+}
 }

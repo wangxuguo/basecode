@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<basecode.com.basecode.ui.view.LargeTouchableAreasView
+<com.basecode.demo.view.LargeTouchableAreasView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"

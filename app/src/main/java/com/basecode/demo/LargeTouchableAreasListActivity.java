@@ -1,4 +1,4 @@
-package basecode.com.basecode.activity;
+package com.basecode.demo;
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -6,10 +6,10 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
-import basecode.com.basecode.R;
-import basecode.com.basecode.ui.view.LargeTouchableAreasView;
+import com.basecode.R;
+import com.basecode.demo.view.LargeTouchableAreasView;
 
-import static basecode.com.basecode.model.entity.Cheeses.CHEESES;
+import static com.basecode.demo.emtity.Cheeses.CHEESES;
 
 /**
  * 点击区域扩大

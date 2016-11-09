@@ -1,4 +1,4 @@
-package basecode.com.basecode.model.entity;
+package com.basecode.demo.emtity;
 
 /**
  * 点击区域扩大

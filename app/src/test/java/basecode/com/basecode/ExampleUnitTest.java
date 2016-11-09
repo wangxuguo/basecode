@@ -1,4 +1,4 @@
-package basecode.com.basecode;
+package com.basecode;
 
 import org.junit.Test;
 

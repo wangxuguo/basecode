@@ -1,4 +1,4 @@
-package basecode.com.basecode.ui.view;
+package com.basecode.demo.view;
 
 import java.util.ArrayList;
 
@@ -15,7 +15,7 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import basecode.com.basecode.R;
+import com.basecode.R;
 
 import static android.graphics.Color.*;
 

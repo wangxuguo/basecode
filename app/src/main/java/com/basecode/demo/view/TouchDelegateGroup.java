@@ -1,12 +1,11 @@
-package basecode.com.basecode.ui.view;
-
-import android.view.TouchDelegate;
-
-import java.util.ArrayList;
+package com.basecode.demo.view;
 
 import android.graphics.Rect;
 import android.view.MotionEvent;
+import android.view.TouchDelegate;
 import android.view.View;
+
+import java.util.ArrayList;
 /**
  *  * 点击区域扩大
  * User: 王旭国
